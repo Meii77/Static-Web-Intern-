@@ -1,0 +1,369 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+.main{
+    width:100%;
+    background-image: url('../internship/image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+.navbar{
+    width:1200px;
+    height: 50px;
+    margin:auto;
+    }
+    .icon{
+        width:200px;
+        float: left;
+        height:70px;
+    }
+    .logo{
+        color:white;
+        font-size: 25px;
+        font-family:Arial;
+        float :left;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-top: 20px;
+       
+    }
+    .build{
+        color:white;
+        font-size:20px;
+        font-family:Arial;
+        float :right;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        border-radius: 10px;
+
+    }
+    .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    ul{
+         float: left;
+         display: flex;
+    }
+     ul li{
+         list-style: none;
+        margin-left: 90px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    a{
+        text-decoration: none;
+        color:darkgrey;
+        font-weight: lighter;
+        transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+        color:rgb(246, 107, 107);
+    }
+    .content{
+        padding-top: 20px;
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        color: rgb(246, 107, 107);
+        position: relative;
+    }
+    .content .p1{
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color:rgb(253, 253, 253);
+    }
+    .content h3{
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;   
+    }
+    .form{
+        width: 330px;
+        height: 350px;
+        background: linear-gradient(to top,rgba(0,0,0,0.5)10%,rgba(0, 0, 0, 0.5)10%);
+        position: absolute;
+        top: 150px;
+        left: 870px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .p2{
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .p3{
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .form input{
+        width: 285px;
+        height: 35px;
+        background: white;
+        border: 1px solid rgb(246, 107, 107);
+        color:slategrey;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+        padding-left: 10px;
+        border-radius: 3px;
+    }
+    .form input:focus{
+        outline: none;
+    }
+::placeholder{
+    color:slategrey;
+    font-family: Arial;
+}
+.b2{
+    width: 285px;
+    height: 35px;
+    background: rgb(246, 107, 107);
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 3px;
+    color:rgb(228, 79, 79);
+    transition: 0.4s ease;
+}
+.b2:hover{
+    background: rgb(228, 79, 79);
+    color: rgb(246, 107, 107);
+}
+.b2 a{
+    text-decoration: none;
+    color:white;
+}
+.note{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+    text-align: left;
+    color: white;
+}
+.secondlogin{
+    width:100%;
+    background-image :url('../internship/image/running.jpg');
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    margin-top:7%;
+    margin-bottom: 10%;
+    font-family: Arial;
+}
+.people{
+    height: 100%;
+    background-color:rgb(251, 249, 247);
+    margin-top:20%;
+    margin-bottom: 5%;
+}
+
+.p18{
+font-size: 30px;
+text-align: right;
+margin-right: 5%;
+margin-top: -300px;
+margin-bottom: 3%;
+}
+    
+.p17{
+font-size: 15px;
+text-align: right;
+margin-right: 5%;
+margin-top: 0px;
+color: slategray;
+}
+.p5{
+    font-size: 20px;
+    color:slategrey;
+    letter-spacing: 0.5px;
+    font-weight:lighter;
+    font-weight: normal;
+}
+.p6{
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p7{
+    font-size: 15px;
+    margin-right: 5%;
+}
+.p8{
+font-family:sans-serif;
+margin-left: 5%;
+margin-bottom: 3%;
+font-size: 120%;
+}
+.p9{
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    color: slategrey;
+}
+.p10{
+    font-family:sans-serif;
+    margin-top: -200px;
+    margin-left: 54%;
+    margin-bottom: 3%;
+    font-size: 120%;
+    }
+.p11{
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 54%;
+        margin-bottom: 7%;
+        color: slategrey;
+    }
+.p12{
+        font-family:sans-serif;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-size: 120%;
+        }
+.p13{
+            text-align: left;
+            margin-left: 5%;
+            margin-bottom: 7%;
+            color: slategrey;
+        
+        }
+.p14{
+            font-family:sans-serif;
+            margin-top: -200px;
+            margin-left: 54%;
+            margin-bottom: 3%;
+            font-size: 120%;
+            }
+            
+.p15{
+                text-align: left;
+                margin-top: 0px;
+                margin-left: 54%;
+                margin-bottom: 7%;
+                color: rgb(112, 128, 144);
+            }
+.p16{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.lastpic{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../internship/image/5092955.jpg");
+width:100%;
+background-position: center;
+background-size: cover;
+height: 100vh;
+margin-bottom: 15%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.last{
+    color: white;
+    text-align: center;
+
+}
+.start{
+    font-size: 60px;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.p20{
+    font-size: 30px;
+    padding-bottom: 7%;
+}
+.p21{
+    font-size: 10px;
+    padding-bottom: 3%;
+    font-style: bold;
+}
+.form1{
+        position: absolute;
+        padding: 10px;
+        align-items: center;
+        padding-left: 36%;
+       
+}
+.form1 input{
+    width: 350px;
+    height: 40px;
+    background: white;
+    border: 1px solid rgb(246, 107, 107);
+    color:slategrey;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+::placeholder{
+    color:slategrey;
+    font-family: Arial;
+}
+.b5 input[type="button"]{
+    width: 350px;
+    height: 40px;
+    background: rgb(246, 107, 107);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.b5 input[type="button"]:hover{
+    background: rgb(228, 79, 79);
+    color:white;
+}
+.note2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+    color: white;
+}
+.note2.a{
+    text-decoration: none;
+    color: white;
+}
+/* NEW EDIT  */
+.new-john{
+    /* display: inline-block; */
+    margin-left: 180px;
+    width: 80%;
+    height: 100%;
+    margin-right: 200px;
+    font-size: 20px;
+    right: 200px;
+    margin-top: 80px;
+}
+.note5{
+    color:rgb(228, 79, 79);
+}
+
+    /* flex-direction: column; */
+    /* padding: 10rem; */
+
+
+
+
+    
